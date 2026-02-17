@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>About Me | Code Vertex</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container nav-container">
+      <div class="logo">Code<span>Vertex</span></div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ABOUT PAGE - EXTENSIVE WITH PERCENTAGE CHARTS -->
+  <main>
+    <section class="container" style="padding: 60px 0;">
+      <h2>about me · designer & developer</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <h3>I'm Hashir khan</h3>
+          <p>Frontend developer and web designer with a passion for dark, premium aesthetics. I design in Figma and bring those designs to life with HTML, CSS, and JavaScript. Every project is an opportunity to create something beautiful and functional.</p>
+          <p>My signature style: dark blue and black backgrounds, white text for readability, and gold (#d4af37) as a contrast accent. I believe that dark themes, when done right, feel luxurious and are easier on the eyes. I pay attention to typography, spacing, and micro-interactions.</p>
+          <p>I started 5 years ago and have since completed 40+ projects for clients worldwide — from portfolio sites to interactive web apps. I work directly with you, no middlemen, ensuring your vision is understood and executed perfectly.</p>
+          
+          <div class="bio-stats">
+            <span class="stat"><i class="fas fa-calendar"></i> 5+ years experience</span>
+            <span class="stat"><i class="fas fa-briefcase"></i> 40+ projects</span>
+            <span class="stat"><i class="fas fa-trophy"></i> 100% satisfaction</span>
+          </div>
+
+          <!-- expertise areas -->
+          <div class="expertise-areas" style="margin-top: 40px;">
+            <h4 style="color: var(--gold); margin-bottom: 20px;">core expertise</h4>
+            <ul class="expertise-list">
+              <li><i class="fas fa-check-circle"></i> Figma to HTML/CSS/JS — pixel-perfect implementation</li>
+              <li><i class="fas fa-check-circle"></i> Dark theme design (blue/black/gold palettes)</li>
+              <li><i class="fas fa-check-circle"></i> Responsive layouts (mobile, tablet, desktop)</li>
+              <li><i class="fas fa-check-circle"></i> Interactive JavaScript components</li>
+              <li><i class="fas fa-check-circle"></i> Premium UI animations and micro-interactions</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="chart-section">
+          <h3 style="margin-bottom: 30px;">skill proficiency (%)</h3>
+          <div class="chart-grid" id="chartContainer">
+            <!-- charts injected by script.js with percentages -->
+          </div>
+          
+          <!-- skill insights -->
+          <div style="margin-top: 50px; background: var(--bg-card); padding: 25px; border-radius: 24px;">
+            <h4 style="color: var(--gold); margin-bottom: 15px;"><i class="fas fa-chart-line"></i> continuous learning</h4>
+            <p style="color: var(--white-muted);">I'm always improving my skills. Currently exploring advanced JavaScript patterns and WebGL to create even more immersive dark-themed experiences.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- my journey - timeline -->
+    <section class="journey">
+      <div class="container">
+        <h2>my journey</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-year">2019</div>
+            <div class="timeline-content">
+              <h3>discovery</h3>
+              <p>Built my first website with HTML/CSS. Fell in love with frontend development. Started learning JavaScript and design principles.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2020</div>
+            <div class="timeline-content">
+              <h3>first client</h3>
+              <p>Designed and developed a portfolio for a photographer using Figma and vanilla JS. Discovered my love for dark themes.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2021</div>
+            <div class="timeline-content">
+              <h3>finding my style</h3>
+              <p>Refined my dark blue/black/gold aesthetic. Started getting clients specifically for premium, dark-themed websites.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2022</div>
+            <div class="timeline-content">
+              <h3>expansion</h3>
+              <p>Completed 15+ projects, including e‑commerce and dashboards. Deepened JavaScript knowledge and interactive components.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2023</div>
+            <div class="timeline-content">
+              <h3>mastery</h3>
+              <p>Focused on performance, accessibility, and complex animations. Became known for premium dark UI.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2024</div>
+            <div class="timeline-content">
+              <h3>today</h3>
+              <p>Continuing to craft beautiful, functional websites. Sharing knowledge and pushing creative boundaries.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- design philosophy -->
+    <section class="quote-block">
+      <div class="container">
+        <p class="large-quote">“Dark themes aren't just a trend — they're a canvas for sophistication.”</p>
+        <p class="quote-author">— Tech Hashi</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Tech Hashi — frontend & design</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
